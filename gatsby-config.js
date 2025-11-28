@@ -4,6 +4,7 @@ require("dotenv").config({
 })
 
 module.exports = {
+  pathPrefix: "/wyrd.github.io",
   plugins: [
     {
       resolve: "gatsby-source-sanity",
